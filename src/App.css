@@ -1,0 +1,67 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+
+#viewer {
+  display: flex;
+  justify-content: center;
+}
+
+.bagSaveInput {
+  width: 500px;
+  position: absolute;
+  bottom: 10%;
+}
+
+#bagFilename {
+  width: 8em;
+  font-size: 32px;
+}
+
+#startScanButton {
+  color: black;
+  font-size: 32px;
+}
+
+.status {
+  position: absolute;
+  top: 5%;
+  left: 2%;
+  /* background-color: aqua; */
+  display: flex;
+}
+
+.led_text_group {
+  padding: 10px;
+}
+
+.led {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  border-radius: 70%;
+  display: inline-block;
+}
+
+.sensor_status_text {
+  color: white;
+  font-size: 24px;
+  font-family: sans-serif;
+}
+
+.seeAllScansButton {
+  position: absolute;
+  top: 5%;
+  right: 2%;
+}
+
+.seeAllScansButton button {
+  color: black;
+  font-size: 16px;
+}
+
+#dialog {
+  width: 30%;
+  height: 50%;
+}

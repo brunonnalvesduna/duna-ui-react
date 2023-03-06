@@ -1,0 +1,43 @@
+{
+  "name": "duna-ui-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.11",
+    "@react-three/drei": "^9.57.0",
+    "@react-three/fiber": "^8.11.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "roslib": "https://github.com/RobotWebTools/roslibjs#ros2",
+    "three": "^0.150.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@types/roslib": "^1.1.10",
+    "@types/three": "^0.149.0",
+    "@vitejs/plugin-react": "^3.1.0",
+    "rollup": "^3.18.0",
+    "rollup-plugin-polyfill-node": "^0.12.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0",
+    "vite-plugin-commonjs-externals": "^0.1.1"
+  },
+  "packageManager": "yarn@3.4.1"
+}
